@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio Link</title>
+    <title>Instagram @xd9h05t</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0d1117; color: #c9d1d9; display: flex; justify-content: center; padding: 40px 20px; }
-        .container { width: 100%; max-width: 400px; text-align: center; }
-        img { width: 96px; height: 96px; border-radius: 50%; border: 2px solid #30363d; margin-bottom: 16px; object-fit: cover; }
-        h1 { font-size: 20px; margin-bottom: 8px; color: #ffffff; }
-        p { color: #8b949e; margin-bottom: 24px; }
-        .link-card { background: #21262d; border: 1px solid #30363d; border-radius: 6px; padding: 12px; margin-bottom: 12px; display: block; color: white; text-decoration: none; font-weight: 600; transition: 0.2s; }
-        .link-card:hover { background: #30363d; border-color: #8b949e; transform: translateY(-2px); }
+        body { 
+            font-family: sans-serif; 
+            background-color: #0d1117; /* Warna gelap khas GitHub/Linux */
+            color: white; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .container { text-align: center; }
+        img { 
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%; 
+            border: 3px solid #e1306c; /* Warna khas Instagram */
+            margin-bottom: 20px; 
+        }
+        .btn-instagram { 
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            color: white; 
+            padding: 15px 30px; 
+            text-decoration: none; 
+            border-radius: 30px; 
+            font-weight: bold; 
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .btn-instagram:hover { transform: scale(1.05); opacity: 0.9; }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="https://github.com/xd9h05t-link.png" alt="Profile">
-        <h1>@xd9h05t</h1>
-        <p>Linux & Open Source Enthusiast</p>
-        
-        <a href="https://instagram.com/xd9h05t" target="_blank" class="link-card">Instagram</a>
-        <a href="https://github.com/xd9h05t-link" target="_blank" class="link-card">GitHub</a>
-        <a href="https://wa.me/6283834189321" target="_blank" class="link-card">WhatsApp</a>
+        <h2>@xd9h05t</h2>
+        <br>
+        <a href="https://instagram.com/xd9h05t" target="_blank" class="btn-instagram">Kunjungi Instagram Saya</a>
     </div>
 </body>
 </html>
