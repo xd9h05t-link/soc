@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Link</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0d1117; color: #c9d1d9; display: flex; justify-content: center; padding: 40px 20px; }
+        .container { width: 100%; max-width: 400px; text-align: center; }
+        img { width: 96px; height: 96px; border-radius: 50%; border: 2px solid #30363d; margin-bottom: 16px; object-fit: cover; }
+        h1 { font-size: 20px; margin-bottom: 8px; color: #ffffff; }
+        p { color: #8b949e; margin-bottom: 24px; }
+        .link-card { background: #21262d; border: 1px solid #30363d; border-radius: 6px; padding: 12px; margin-bottom: 12px; display: block; color: white; text-decoration: none; font-weight: 600; transition: 0.2s; }
+        .link-card:hover { background: #30363d; border-color: #8b949e; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://github.com/xd9h05t-link.png" alt="Profile">
+        <h1>@xd9h05t</h1>
+        <p>Linux & Open Source Enthusiast</p>
+        
+        <a href="https://instagram.com/xd9h05t" target="_blank" class="link-card">Instagram</a>
+        <a href="https://github.com/xd9h05t-link" target="_blank" class="link-card">GitHub</a>
+        <a href="https://wa.me/6283834189321" target="_blank" class="link-card">WhatsApp</a>
+    </div>
+</body>
+</html>
